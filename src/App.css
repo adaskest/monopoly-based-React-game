@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+#root {
+    height: 100vh;
+    width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.road {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    gap: 5px;
+    margin: 10px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.playerOne {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.playerTwo {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box p {
+    opacity: .1;
+}
+
+.money {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.dices {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dice {
+    cursor: pointer;
+    width: fit-content;
+    font-size: 70px;
+    text-align: center;
 }
