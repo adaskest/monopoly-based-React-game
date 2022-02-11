@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/monopoly-based-React-game/static/css/main.75fb75fb.css",
+    "main.js": "/monopoly-based-React-game/static/js/main.1b155ee8.js",
+    "static/js/787.c2f85d35.chunk.js": "/monopoly-based-React-game/static/js/787.c2f85d35.chunk.js",
+    "index.html": "/monopoly-based-React-game/index.html",
+    "main.75fb75fb.css.map": "/monopoly-based-React-game/static/css/main.75fb75fb.css.map",
+    "main.1b155ee8.js.map": "/monopoly-based-React-game/static/js/main.1b155ee8.js.map",
+    "787.c2f85d35.chunk.js.map": "/monopoly-based-React-game/static/js/787.c2f85d35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75fb75fb.css",
+    "static/js/main.1b155ee8.js"
+  ]
+}
